@@ -1,0 +1,112 @@
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  // border-style: none none solid none;
+  border-bottom: 5px solid #B41C8B;
+}
+
+.headerAll {
+  display: flex;
+  padding: 15px;
+}
+
+.logo {
+  img{
+    width: 142px;
+    height: 142px;
+    margin: 0 1rem;
+    border: 2px solid #B41C8B;
+    border-radius: 80px;
+  }
+
+}
+
+.headerInfo{
+  padding: 1rem;
+}
+.topInfo {
+  display: flex;
+  h2 {
+    padding-right:1rem ;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1BBB16;
+  }
+}
+
+.midInfo {
+  padding: 1rem 0rem;
+  font-family: Quicksand;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.botInfo {
+  display: flex;
+  // justify-content: space-between;
+   p {
+    padding-right: 6rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #818181;
+     span {
+      padding-right: 1rem;
+      font-family: Quicksand;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #3F3F3F;
+
+     }
+   }
+}
+
+.cartContainer {
+  border-left: 1px solid  #ECECEC;
+  margin: 2rem 0rem;
+  padding: 2rem 2rem;
+
+  div {
+    p:first-child {
+      display: flex;
+      font-family: Quicksand;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #3F3F3F;
+      span {
+        padding-left: 10px;
+
+      }
+    }
+    p:last-child {
+      padding-left: 2rem;
+      font-family: Quicksand;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      color: #B41C8B;
+    }
+  }
+
+
+}
+

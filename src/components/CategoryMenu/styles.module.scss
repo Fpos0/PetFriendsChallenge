@@ -1,0 +1,22 @@
+
+
+.container {
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+  // height: 5rem;
+  button {
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    height: 4rem;
+    width: 19rem;
+    border: 0;
+    background-color: #FFFFFF;
+
+    &:hover {
+      text-decoration-line: underline;
+      color: #B41C8B;
+    }
+  }
+}
