@@ -23,7 +23,7 @@ layout disponibilizado pela SoftCom.
 ## 🚀 Como executar o projeto
 
 Este projeto é divido em três partes:
-1. Frontend (pasta web)
+1. Frontend
 2. Fake Api (json-server)
 
 
@@ -50,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Flavio Segundo</b></sub></a> <a href="https://github.com/Fpos0">🚀</a>
 
 
-Feito com ❤️ por Thiago Marinho 👋🏽 Entre em contato!
+Feito por Flavio Segundo 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-FlavioFpos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flavio-p-o-segundo-889b25108/)](https://www.linkedin.com/in/flavio-p-o-segundo-889b25108/) 
 | 
