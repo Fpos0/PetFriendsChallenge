@@ -1,9 +1,13 @@
 import { FiClock } from 'react-icons/fi';
 import { RiMotorbikeFill } from 'react-icons/ri';
 import { HiShoppingCart } from 'react-icons/hi';
+import { useContext } from 'react';
 import styles from './styles.module.scss';
+import { ProductsContext } from '../../context/ProductsContext';
+// const { productsDisplay, LoadData } = useContext(ProductsContext);
 
 export function Header() {
+  const { cartInfo } = useContext(ProductsContext);
   return (
     <div className={styles.headerContainer}>
       <div className={styles.headerAll}>
@@ -44,9 +48,9 @@ export function Header() {
         <div>
           <p>
             <HiShoppingCart size={25} />
-            <span>5 Produtos no Carrinho</span>
+            <span>{cartInfo.totalProducts} Produtos no Carrinho</span>
           </p>
-          <p>R$ 349,80</p>
+          <p>R$ {cartInfo.totalValue}</p>
         </div>
       </div>
     </div>

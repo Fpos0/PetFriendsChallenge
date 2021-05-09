@@ -1,11 +1,30 @@
 .container {
-  height: 100vh;
-  overflow: hidden;
-  border: 5px pink;
+  // height: 100vh;
+  // overflow: hidden;
+  width: 100%;
   background-color: #F3F3F4;
-  div {
-    padding: 2rem;
-
+  h2 {
+    padding: 0.5rem 2rem;
+    font-family: Quicksand;
+    font-size: 22px;
+    line-height: 27px;
   }
 }
 
+.searchBar{
+  padding: 3rem 2rem;
+}
+
+.productsDisplayStyle {
+  padding: 0rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 20rem;
+  // grid-template-columns: repeat(5,auto);
+  & > * {
+    margin: 1rem;
+  }
+
+}

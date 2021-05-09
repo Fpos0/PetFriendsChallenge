@@ -1,0 +1,113 @@
+{
+  "products":
+  [
+    {
+      "id":"0",
+      "title":"Shampoo Tradicional ",
+      "subtitle":"I Love Pet 5 Litros",
+      "about":"Shampoo Tradicional I Love Pet 5 Litros lorem ipsum dorime",
+      "imgURL":"/shampo5l.png",
+      "price":"69.90",
+      "category": "Sugestao do Vendedor"
+    },
+    {
+      "id":"1",
+      "title":"Cama Londres Azul - ",
+      "subtitle":"Chicxs",
+      "about":"Dori me Interimo adapare, dori meAmeno, ameno, latire",
+      "imgURL":"/azulcama.png",
+      "price":"295",
+      "category": "Camas e Casinhas"
+    },
+    {
+      "id":"2",
+      "title":"Comedouro Pesado ",
+      "subtitle":"Lilás NF Pet",
+      "about":"Omenare imperavi ameno Ameno Dimere, dimere mantiro Mantiremo, ameno",
+      "imgURL":"/comedouro.png",
+      "price":"29",
+      "category": "Sugestao do Vendedor"
+    },
+    {
+      "id":"3",
+      "title":"Shampoo Tradicional ",
+      "subtitle":"I Love Pet 25 Litros",
+      "about":"Shampoo Tradicional I Love Pet 5 Litros lorem ipsum dorime",
+      "imgURL":"/shampo5l.png",
+      "price":"122",
+      "category": "Sugestao do Vendedor"
+    },
+    {
+      "id":"4",
+      "title":"Coleira Antirabica +20 ",
+      "subtitle":"Radical do Pateta",
+      "about":"Potente igual aquelas mascaras que dizem eliminar 999,99% dos treko",
+      "imgURL":"/comedouro.png",
+      "price":"59.90",
+      "category": "Coleiras"
+    },
+    {
+      "id":"5",
+      "title":"Petiscos Energizados",
+      "subtitle":"Monster Plus Ultra",
+      "about":"GET YOUR DOG HYPE UP WITH THE BEST PRODUCT IN TOWN!!!!",
+      "imgURL":"/shampo5l.png",
+      "price":"20",
+      "category": "Ossos e Petiscos"
+    },
+    {
+      "id":"6",
+      "title":"Azul Blue",
+      "subtitle":"Blau Bed Toy",
+      "about":"The best blue bed for your dog only!!",
+      "imgURL":"/azulcama.png",
+      "price":"322",
+      "category": "Sugestao do Vendedor"
+    },
+    {
+      "id":"7",
+      "title":"Dog Water - ",
+      "subtitle":"Water for Dogs",
+      "about":"Exclusive dog water,a water for dogs(Not Included in Image)",
+      "imgURL":"/comedouro.png",
+      "price":"100",
+      "category": "Sugestao do Vendedor"
+    },
+    {
+      "id":"8",
+      "title":"Brinquedo Chalesco ",
+      "subtitle":"para Cães com Bola de Tênis - Cores Sortidas",
+      "about":"para Cães com Bola de Tênis e para Cães com Bola de Tênis",
+      "imgURL":"/toy4.png",
+      "price":"24",
+      "category": "Brinquedos"
+    },
+    {
+      "id":"9",
+      "title":"Brinquedo kokon ",
+      "subtitle":"para Cães e Gatos",
+      "about":"para Cães com Bola de Tênis e para Cães com Bola de Tênis",
+      "imgURL":"/toy1.png",
+      "price":"32",
+      "category": "Brinquedos"
+    },
+    {
+      "id":"10",
+      "title":"Brinquedo ChocoTem! ",
+      "subtitle":"para Cães e Papagaios ",
+      "about":"para Cães com Bola de Tênis e para Cães com Bola de Tênis",
+      "imgURL":"/toy2.png",
+      "price":"18",
+      "category": "Brinquedos"
+    },
+    {
+      "id":"11",
+      "title":"Brinquedo ChocoNãoTem! ",
+      "subtitle":"para Cães ",
+      "about":"para Cães com Bola de Tênis e para Cães com Bola de Tênis",
+      "imgURL":"/toy3.png",
+      "price":"18",
+      "category": "Brinquedos"
+    }
+  ]
+}

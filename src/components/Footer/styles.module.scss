@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 125px;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #B41C8B;
+  border-top: solid 5px  #B41C8B;
+  div:not(:first-child) {
+    border-left: 1px solid #ECECEC;
+    padding: 0rem 0rem 4rem 7rem;
+    // background: lightgray;
+    padding-top: 2rem;
+    text-align: center;
+    // margin: 0 auto;
+  }
+  a {
+    color: #B41C8B;
+
+  }
+  div {
+    height: 40px;
+    // background: gray;
+  }
+}
+
+.socialNetworks {
+  img {
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+  }
+}

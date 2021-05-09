@@ -1,8 +1,35 @@
 
 .container {
+  background-color: #FFF;
   display: flex;
-  border: 3px solid #DDDDDD;
+  width: 500px;
+  height: 50px;
+  border: 1px solid #DDDDDD;
+  // box-sizing: border-box;
   border-radius: 3px;
-  // width: 500px;
-  height: 55px;
+  div {
+    input {
+      border: 0;
+      width: 470px;
+      height: 48px;
+      padding-left: 15px;
+      &:focus {
+        outline: 0;
+      }
+
+      &::placeholder {
+        font-family: Quicksand;
+        font-size: 20px;
+        line-height: 25px;
+        color: #898989;
+      }
+    }
+  }
+
+  &:last-child {
+    color: #ACACAC;
+    align-items: center;
+    justify-content: right;
+  }
+
 }

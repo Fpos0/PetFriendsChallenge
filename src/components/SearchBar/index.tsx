@@ -1,12 +1,21 @@
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, useContext, useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
+import { ProductsContext } from '../../context/ProductsContext';
 import styles from './styles.module.scss';
 
 export function SearchBar() {
   const [searchText, setSearchText] = useState('');
-
+  const { setProductsByInput, setProductsByCategory } = useContext(
+    ProductsContext,
+  );
   function handleChange(e: ChangeEvent<HTMLInputElement>) {
-    setSearchText(e.target.value);
+    const searchInput = e.target.value;
+    setSearchText(searchInput);
+    if (searchInput) {
+      setProductsByInput(searchInput);
+    } else {
+      setProductsByCategory('Sugestao do Vendedor');
+    }
   }
   return (
     <div className={styles.container}>
@@ -21,7 +30,7 @@ export function SearchBar() {
         </label>
       </div>
       <div>
-        <BsSearch size={15} />
+        <BsSearch size={20} />
       </div>
     </div>
   );

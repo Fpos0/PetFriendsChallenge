@@ -4,6 +4,9 @@
   display: flex;
   border-bottom: 1px solid #E0E0E0;
   // height: 5rem;
+  button:first-child {
+    padding-left: 2rem;
+  }
   button {
     font-family: Quicksand;
     font-weight: bold;
