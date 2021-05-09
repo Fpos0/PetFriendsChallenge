@@ -41,7 +41,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React-Modal](https://www.npmjs.com/package/react-modal)**
 
 <h1 align="center">
-  <img alt="Addicionado Produto no Carrinho" title="Addicionado Produto no Carrinho" src="./AddProduct.gif" />
+  Adicionando Produtos no Carrinho
+  <img alt="Addicionado Produto no Carrinho" title="Addicionado Produto no Carrinho" src="./public/AddProduct.gif" />
+</h1>
+
+<h1 align="center">
+  Pesquisando por categoria ou Procurando por nome
+  <img alt="Addicionado Produto no Carrinho" title="Addicionado Produto no Carrinho" src="./public/SearchMethods.gif" />
 </h1>
 
 ### Autor
