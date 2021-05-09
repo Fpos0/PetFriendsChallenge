@@ -40,14 +40,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[JSON Server](https://github.com/typicode/json-server)**
 -   **[React-Modal](https://www.npmjs.com/package/react-modal)**
 
+<h1 align="center">
+  <img alt="Addicionado Produto no Carrinho" title="Addicionado Produto no Carrinho" src="./AddProduct.gif" />
+</h1>
 
 ### Autor
 ---
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
+
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/25486795?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Flavio Segundo</b></sub></a> <a href="https://github.com/Fpos0">🚀</a>
+ <sub><b>Flavio Segundo</b></sub></a> <a href="https://github.com/Fpos0">🚀
 
 
 Feito por Flavio Segundo 👋🏽 Entre em contato!
