@@ -30,8 +30,6 @@ interface ProductData {
   price: number;
   // category: string[];
 }
-// Sera preciso formatar o preço
-// Modal.setAppElement('ProductCard');
 
 export function ProductCard({
   title,
@@ -86,7 +84,8 @@ export function ProductCard({
         </div>
 
         <div className={styles.cardFooter}>
-          <p>R$ {price}</p>
+          <p>{convertValueToString(price * 1)}</p>
+
           <div>
             <FaCartPlus size={20} className={styles.cartSimbol} />
           </div>
