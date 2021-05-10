@@ -9,7 +9,7 @@ PetFriends é uma lojinha virtual onde o usuario pode selecionar quanto e quais 
 ## Features
 
 - [x] Procurar Produtos Por Categoria
-- [x] Procurar Produtos através da SearchBar
+- [x] Procurar Produtos através da SearchBar,atualizando a lista de procura a cada caractere digitado
 - [x] Adicionar Produtos no Carrinho através de um Modal
 
 ## 🎨 Layout
@@ -20,11 +20,14 @@ https://www.figma.com/file/6Y64kMphXj7ZnPmmVGch7d/Desafio-UX-(Copy)?node-id=58%3
 
 layout disponibilizado pela SoftCom.
 
-## 🚀 Como executar o projeto
+## 🚀 Como executar o projeto (dev)
 
-Este projeto é divido em três partes:
-1. Frontend
-2. Fake Api (json-server)
+Este projeto é divido em duas partes:
+1. Fake Api (json-server) <br/>
+    yarn server
+2. Frontend <br/>
+    yarn dev
+
 
 
 ## 🛠 Tecnologias
