@@ -12,7 +12,7 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
-    height: 4rem;
+    height: 8vh;
     width: 19rem;
     border: 0;
     background-color: #FFFFFF;
@@ -23,3 +23,33 @@
     }
   }
 }
+
+@media (max-width:768px) {
+  .container {
+    white-space: nowrap;
+    overflow-x: scroll;
+    button {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 0 0.5rem;
+
+    }
+  }
+}
+
+
+@media (max-width:591px) {
+  .container {
+
+    button:first-child {
+      padding-left: 0.5rem;
+    }
+    button {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 22px;
+      height: 7vh ;
+    }
+  }
+}
+

@@ -4,7 +4,15 @@
   box-sizing: border-box;
   // overflow-y: hidden;
 }
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+// html { font-size: calc(1em + 1vw) }
 // @media(max-width: 1080px){
 //   html {
 //       font-size: 93.75%;

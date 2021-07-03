@@ -33,3 +33,23 @@
   }
 
 }
+
+@media(max-width: 591px){
+  .container {
+    width: 97%;
+    div:first-child {
+      flex: 9;
+
+      input {
+        width: fit-content;
+        &::placeholder{
+          font-size: 15px;
+        }
+      }
+    }
+    div:last-child {
+      flex: 1
+    }
+
+  }
+}

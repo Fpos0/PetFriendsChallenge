@@ -26,8 +26,8 @@ export function Header() {
 
           <div className={styles.midInfo}>
             <p>
-              Avenida Rio Grande do Sul, 1520, Estados | 58030-021 | João Pessoa
-              - PB{' '}
+              <span>Avenida Rio Grande do Sul, 1520, Estados |</span> 58030-021
+              | João Pessoa - PB{' '}
             </p>
           </div>
 
@@ -50,7 +50,9 @@ export function Header() {
             <HiShoppingCart size={25} />
             <span>{cartInfo.totalProducts} Produtos no Carrinho</span>
           </p>
-          <p>R$ {cartInfo.totalValue}</p>
+          <p>
+            <span>R$ {cartInfo.totalValue}</span>
+          </p>
         </div>
       </div>
     </div>

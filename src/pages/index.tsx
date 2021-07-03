@@ -57,14 +57,19 @@ export default function Home({ data }: HomeProps) {
   }
   // console.log(productsDisplay);
   return (
-    <>
+    <div className={styles.FullContainer}>
       <Head>
         <title>Pet Friends</title>
       </Head>
-      <CategoryMenu />
       <div className={styles.container}>
-        <div className={styles.searchBar}>
-          <SearchBar />
+        <div className={styles.topMiddle}>
+          <div className={styles.categoryMenu}>
+            <CategoryMenu />
+          </div>
+
+          <div className={styles.searchBar}>
+            <SearchBar />
+          </div>
         </div>
         <h2>{categoryDisplay}</h2>
         <div className={styles.productsDisplayStyle}>
@@ -73,7 +78,7 @@ export default function Home({ data }: HomeProps) {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 // {productsDisplay.map(product => {

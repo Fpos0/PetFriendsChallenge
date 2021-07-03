@@ -1,5 +1,6 @@
 
 .container {
+
   width: 250px;
   height: 420px;
   background: #FFFFFF;
@@ -8,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
 }
 
 .image {
@@ -21,7 +23,7 @@
   padding-left: 15px;
   font-family: Quicksand;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 24px;
   margin-bottom: 25%;
 }
@@ -159,5 +161,32 @@
       height: 40px;
     }
 
+  }
+}
+
+@media(max-width: 591px){
+  .image img{
+    padding-top: 3px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .container {
+    width: 200px;
+    height: 280px;
+
+  }
+
+  .title {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .cardFooter {
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 }
