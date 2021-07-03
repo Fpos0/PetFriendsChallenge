@@ -51,7 +51,8 @@ export function Header() {
             <span>{cartInfo.totalProducts} Produtos no Carrinho</span>
           </p>
           <p>
-            <span>R$ {cartInfo.totalValue}</span>
+            <span>R$</span>
+            <span> {cartInfo.totalValue}</span>
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useContext, useState } from 'react';
-import { FaCartPlus, FaPlus, FaMinus } from 'react-icons/fa';
+import { FaCartPlus, FaPlus, FaMinus, FaAngleLeft } from 'react-icons/fa';
 import Modal from 'react-modal';
 import { GrClose } from 'react-icons/gr';
 import { convertValueToString } from '../utils/convertValueToString';
@@ -16,9 +16,12 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    // height: '400px',
+    // width: '720px',
     height: '400px',
-    width: '720px',
-    overflow: 'visibile',
+    width: '90%',
+    maxWidth: '720px',
+    overflow: 'visible',
   },
 };
 interface ProductData {
@@ -94,8 +97,10 @@ export function ProductCard({
 
       <Modal
         isOpen={modalIsOpen}
-        onRequestClkose={closeModal}
-        style={customStyles}
+        onRequestClose={closeModal}
+        // style={styles.modalOuterContainer}
+        className={styles.Modal}
+        overlayClassName={styles.Overlay}
         contentLabel="Product Content"
       >
         <button
@@ -105,6 +110,12 @@ export function ProductCard({
         >
           <GrClose size={30} />
         </button>
+        <div className={styles.modalHeader} onClick={closeModal}>
+          <div>
+            <FaAngleLeft size={15} />
+          </div>
+          <span>Voltar</span>
+        </div>
         <div className={styles.modalContainer}>
           <div className={styles.LeftSideModal}>
             <img src={imgURL} alt="Imagem Produto" />
