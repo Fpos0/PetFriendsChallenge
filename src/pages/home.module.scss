@@ -54,6 +54,11 @@
 }
 
 @media(max-width: 768px){
+  .container {
+    h2 {
+      font-size: 16px;
+    }
+  }
   .productsDisplayStyle {
     & > *{
       margin: 3px
@@ -78,8 +83,8 @@
   }
 
   .productsDisplayStyle{
-    margin: 2px;
-
+    margin: 2px 2px 0 2px;
+    padding-bottom: 18%;
   }
 }
 
