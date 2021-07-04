@@ -37,13 +37,17 @@
 @media(max-width: 591px){
   .container {
     width: 97%;
+    height: 29px;
+
     div:first-child {
       flex: 9;
 
       input {
-        width: fit-content;
+        width: auto;
+        height: fit-content;
+
         &::placeholder{
-          font-size: 15px;
+          font-size: 12px;
         }
       }
     }

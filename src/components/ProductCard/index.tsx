@@ -71,6 +71,8 @@ export function ProductCard({
       totalProducts: qntityToAdd,
     };
     updateCart(newCartData);
+    setQntityToAdd(1);
+
     closeModal();
   }
   return (
