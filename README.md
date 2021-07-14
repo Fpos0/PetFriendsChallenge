@@ -37,6 +37,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 
+-   **[NextJS](https://nextjs.org/)**
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Sass](https://sass-lang.com/)**
