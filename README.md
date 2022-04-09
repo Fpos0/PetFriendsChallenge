@@ -63,7 +63,7 @@ The following tools were used in the construction of the project:
 </h1>
 
 <h1 align="center">
-  Pesquisando por categoria ou Procurando por nome
+  Pesquisando por categoria ou Procurando por nome<br/>
   Searching by category or Searching by name
   <img alt="Addicionado Produto no Carrinho" title="Addicionado Produto no Carrinho" src="./public/SearchMethods.gif" />
 </h1>
